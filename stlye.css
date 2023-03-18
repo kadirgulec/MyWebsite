@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Silkscreen', cursive; */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+header nav a {
+  text-decoration: none;
+  color: rgb(40, 5, 59);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#giris h1 {
+  margin-left: 1rem;
+  font-family: 'Silkscreen', cursive;
+   order: 2;
+
+}
+#digerleri {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#digerleri p a {
+  font-size: 1.5rem;
+}
+.sayfa {
+  height: 100vh;
+}
+#giris {
+  background-color: rgb(137, 129, 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 40%;
+}
+.img img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.aragecis {
+  width: 100%;
+  height: 20vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aragecis1 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/58/507/689/code-coffee-computer-computer-screen-wallpaper-preview.jpg");
+}
+.aragecis2 {
+  background-image: url(https://image.shutterstock.com/image-vector/thank-you-essential-workers-concept-260nw-1713290596.jpg);
+}
+.aragecis3 {
+  background-image: url(https://img.freepik.com/premium-photo/back-school-education-banner-background_8087-1192.jpg?w=2000);
+}
+.aragecis4 {
+  background-image: url(https://wallpaperaccess.com/full/678320.jpg);
+}
+#aboutme {
+  background-color: azure;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#mybackground {
+  max-width: 40%;
+}
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+.edutitle {
+  font-size: 1.3rem;
+  width: 20vw;
+}
+#education {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* .eduinfo h3 {
+  margin-top: 4rem;
+} */
+.eduinfo {
+  justify-self: center;
+  align-self: flex-start;
+  width: 33%;
+}
+.workinfo {
+  justify-self: center;
+  align-self: flex-start;
+  width: 20%;
+}
+#experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Messageme {
+  font-size: 5rem;
+}
+
+form {
+  font-size: 2rem;
+}
+input {
+  height: 2rem;
+  width: 80%;
+  font-size: 1.8rem;
+}
+textarea {
+  width: 80%;
+  max-height: 20%;
+  font-size: 2rem;
+}
+
+button {
+  height: 3rem;
+  width: 6rem;
+  font-size: 1.5rem;
+  background-color: blueviolet;
+  color: bisque;
+}
+
+button:hover {
+  background-color: rgb(183, 143, 221);
+  color: rgb(41, 23, 1);
+}
+
+.ayak {
+  height: 10rem;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fa-brands{
+  color: white;
+}
+#socialaccounts{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  
+}
+#socialaccounts li a:link {
+  color: white;
+  font-size: 1.5rem;
+}
+#socialaccounts li a:visited {
+  color: rgb(165, 183, 199);
+}
+#socials h5 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: .1rem;
+}
+#mailandtel > * {
+  color: white;
+  font-size: 2rem;
+}
+#mailandtel p:first-of-type{
+  margin-top: -1rem;
+}
+
+@media (max-width: 600px) {
+  .sayfa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .handy {
+    width: 100%;
+    margin: auto;
+  }
+  .ayak {
+    flex-direction: column;
+    height: fit-content;
+    align-items: flex-start;
+  }
+  #Messageme {
+    font-size: 2rem;
+  }
+  form > * {
+    font-size: 1rem;
+  }
+  /* #giris h1 {
+    font-size: .75rem;
+  } */
+}
+@media (max-width: 340px) {
+  #socialaccounts li a:link {
+    font-size: 1rem;
+  }
+
+  #socials h5 {
+    font-size: 1rem;
+  }
+  #mailandtel > * {
+    font-size: 1rem;
+  }
+}
