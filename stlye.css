@@ -22,6 +22,7 @@ header nav a {
   position: relative;
   top: -150px;
   left: 50%;
+  
 }
 nav {
   display: flex;
@@ -230,6 +231,12 @@ button:hover {
   /* #giris h1 {
     font-size: .75rem;
   } */
+  
+  .moreArrow{
+      position: relative;
+      top: -45px;
+      left: 0;
+  }
 }
 @media (max-width: 340px) {
   #socialaccounts li a:link {
